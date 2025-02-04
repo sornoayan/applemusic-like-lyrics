@@ -123,6 +123,7 @@ jobs:
             最新 ${{ github.ref_name }} 分支开发调试构建。
             Development version may be unstable and may not work properly, please only for test purpose.
             开发版本可能不稳定且可能无法正常工作，请仅用于测试目的。
+
             Latest commits (最新提交): ${{ github.event.head_commit.message }}
           prerelease: true
           args: ${{ matrix.args }}
